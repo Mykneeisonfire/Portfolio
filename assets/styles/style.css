@@ -50,10 +50,25 @@ main{
     margin-left: 100px;
 }
 
+.about{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: slateblue;
+}
+
+.about p{
+    font-size: large;
+}
 /*Works*/
 
+.media{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+
+}
 
 .bannercard img{
+
    height: 900px;
    width: 100%;
    padding: 10px aquamarine
@@ -61,12 +76,18 @@ main{
 
 .smallcard{
     margin-left: 240px;
-    columns: 3;
-    
-    
+    columns: 3;  
 }
 
 .smallcard img {
     height: 400px;
     width: 400px;
+}
+
+/*Contact Info */
+.contactme li{
+    display:block;
+    position:relative;
+    float: center;
+
 }
