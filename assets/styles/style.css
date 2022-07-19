@@ -1,0 +1,72 @@
+*{
+    background-color: azure;
+}
+/*The header*/
+
+header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color:slateblue;
+    font-size: large;
+}
+
+/*navbar*/
+
+nav{
+  background-color: lightslategrey;
+}
+
+nav ul{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+ul li{
+    display: block;
+    position: relative;
+    float: right;
+}
+
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    color:darkgray;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 5px 15px;
+    margin-left: 1px;
+    white-space: nowrap;
+    font-size: larger;
+} 
+/*Banner*/
+.banner{
+    max-height: 400px;
+    width: 100%;
+}
+
+/*About Me*/
+
+main{
+    margin-left: 100px;
+}
+
+/*Works*/
+
+
+.bannercard img{
+   height: 900px;
+   width: 100%;
+   padding: 10px aquamarine
+}
+
+.smallcard{
+    margin-left: 240px;
+    columns: 3;
+    
+    
+}
+
+.smallcard img {
+    height: 400px;
+    width: 400px;
+}
